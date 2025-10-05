@@ -140,6 +140,9 @@ ol {
 .content__video-card-description {
   line-height: 87%;
   margin-left: 1px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .content__video-card-title {
@@ -297,16 +300,4 @@ ol {
 .result__video-container,
 .content__list-container {
   position: relative;
-}
-
-.error {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #545050;
-  color: #fff;
-  font: 700 24px/1 "Fira Sans Condensed", sans-serif;
-  text-align: center;
 }
